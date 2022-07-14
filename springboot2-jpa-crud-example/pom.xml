@@ -9,7 +9,7 @@
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>springboot2-jpa-crud-app</name>
+	<name>springboot2jpacrudexample</name>
 	<description>Spring Boot CRUD App</description>
 
 	<parent>
