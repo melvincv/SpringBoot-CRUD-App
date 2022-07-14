@@ -5,12 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.guides.springboot2</groupId>
-	<artifactId>springboot2-jpa-crud-example</artifactId>
+	<artifactId>springboot2-jpa-crud-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot2-jpa-crud-example</name>
-	<description>Demo project for Spring Boot</description>
+	<name>springboot2-jpa-crud-app</name>
+	<description>Spring Boot CRUD App</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -46,8 +46,8 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
